@@ -1,0 +1,41 @@
+nav {
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+
+.container-1
+{
+    width: 1920px;
+height: 130px;
+display: flex;
+align-items: center;
+margin: 0 auto;
+}
+
+
+.container-1-logo
+{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+
+.container-1-box
+{
+    width: 262px;
+    height: 56px;
+
+    display: flex;
+    align-items: center;
+    padding-left: 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+
+
+
+.main-container
+{
+    background: #FFF;
+}
