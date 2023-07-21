@@ -6,12 +6,13 @@ box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 .container-1
 {
-    width: 1920px;
-height: 130px;
-display: flex;
-align-items: center;
-margin: 0 auto;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
+
 
 
 .container-1-logo
@@ -32,10 +33,106 @@ margin: 0 auto;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
+.container-1-items
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-1-items a
+{
+    color: #3C354F;
+text-align: center;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.container-span
+{
+    color: #FF42A5;
 
-
+}
 
 .main-container
 {
-    background: #FFF;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    background-image: url('../images/Group\ 14.png');
+    background-repeat: no-repeat;
+}
+.main-content
+{
+
+    fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    max-width: 1400px;
+    margin-left: 238px;
+    width: 40%;
+}
+.main-title-1
+{
+    color: #0B0223;
+
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+margin-left: 10px;
+}
+.main-title-2
+{
+  margin-left: 10px;  
+font-family: Work Sans;
+font-size: 95px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.main-description
+{
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.button{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+.button-1{
+    display: inline-flex;
+padding: 21px 40px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: #4EC5F7;
+color: #FFF;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
 }
